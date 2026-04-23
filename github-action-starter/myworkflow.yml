@@ -1,0 +1,9 @@
+name: print hello world
+on:
+  push:
+jobs:
+  print:
+    runs-on: macos-latest
+    steps:
+      - name: print hello world
+        run: echo "Hello World"
